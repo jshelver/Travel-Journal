@@ -3,7 +3,7 @@ import { IoLocationSharp } from "react-icons/io5"
 function Card(prop) {
     return (
         <div className="card">
-            <img src={prop.item.image} alt="" className="card-image"/>
+            <img src={prop.item.image} alt="image" className="card-image"/>
             <div className="card-info-section">
                 <div className="card-location">
                     <a href={prop.item.locationLink} target="_blank" rel="noopener noreferrer"><IoLocationSharp className="card-location-icon"/></a>
