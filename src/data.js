@@ -1,7 +1,7 @@
 export default [
     {
         id:1,
-        image:"./image/mount-fuji.jpg",
+        image:process.env.PUBLIC_URL + "/image/mount-fuji.jpg",
         location:"Japan",
         locationLink:"https://www.google.com/maps/place/Mount+Fuji/@35.3606422,138.7186086,15z/data=!3m1!4b1!4m5!3m4!1s0x6019629a42fdc899:0xa6a1fcc916f3a4df!8m2!3d35.3606255!4d138.7273634",
         heading:"Mount Fuji",
@@ -13,7 +13,7 @@ export default [
     },
     {
         id:2,
-        image:"./image/sydney-opera-house.jpg",
+        image:process.env.PUBLIC_URL + "/image/sydney-opera-house.jpg",
         location:"Australia",
         locationLink:"https://www.google.com/maps/place/Sydney+Opera+House/@-33.8567799,151.213108,17z/data=!3m2!4b1!5s0x6b12ae67d234a27f:0xd6d4e9380ca1e32f!4m5!3m4!1s0x6b12ae665e892fdd:0x3133f8d75a1ac251!8m2!3d-33.8567844!4d151.2152967",
         heading:"Sydney Opera House",
@@ -25,7 +25,7 @@ export default [
     },
     {
         id:3,
-        image:"./image/norway.jpg",
+        image:process.env.PUBLIC_URL + "/image/norway.jpg",
         location:"Norway",
         locationLink:"https://www.google.com/maps/place/Geirangerfjord/@62.1049113,7.0051741,12z/data=!3m1!4b1!4m5!3m4!1s0x46169d427b268c51:0xb8c99540dcc397fe!8m2!3d62.101506!4d7.0940816",
         heading:"Geirangerfjord",
@@ -37,7 +37,7 @@ export default [
     },
     {
         id:4,
-        image:"./image/statue-of-liberty.jpg",
+        image:process.env.PUBLIC_URL + "/image/statue-of-liberty.jpg",
         location:"USA",
         locationLink:"https://www.google.com/maps/place/Statue+of+Liberty/@40.6892494,-74.0466891,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25090129c363d:0x40c6a5770d25022b!8m2!3d40.6892494!4d-74.0445004",
         heading:"Statue of Liberty",
@@ -49,7 +49,7 @@ export default [
     },
     {
         id:5,
-        image:"./image/pyramid-giza.jpg",
+        image:process.env.PUBLIC_URL + "/image/pyramid-giza.jpg",
         location:"Egypt",
         locationLink:"https://www.google.com/maps/place/The+Great+Pyramid+of+Giza/@29.9792345,31.1320132,17z/data=!3m1!4b1!4m5!3m4!1s0x14584587ac8f291b:0x810c2f3fa2a52424!8m2!3d29.9792345!4d31.1342019",
         heading:"Pyramid of Giza",
